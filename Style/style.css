@@ -1,0 +1,99 @@
+/*Importar Tipografia*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*Propiedades bg-home*/
+.bg-home{
+    background-image: url(/images/home.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Navbar*/
+.nav.justify-content-center{
+    background-color: #FFFFFF;
+    padding: 5px;
+}
+.nav.justify-content-center a {
+    color: black;
+    text-decoration: none;
+}
+
+/*Porpiedades Main*/
+.jumbotron{
+    display: grid;
+    align-items: center;
+    height: 100vh;
+}
+
+.display-3 h1{
+ font-size: 34px;
+ color: black;
+ margin-bottom: 1rem;
+ margin: 10px;
+}
+
+   
+
+/*Propiedades bg-nosotros*/
+ .bg-nosotros{
+        background-image: url(/images/Sobre.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+/*Propiedades Contacto*/
+.bg-contacto{
+    background-image: url(/images/contacto.png);
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+.sub-container{
+    height: 100vh;
+}
+
+.jumbotron textarea{
+    margin-bottom: 10px;;
+}
+
+/*Cards Portfolio*/
+.bg-portfolio{
+    background-image: url(/images/Portfolio.png);
+    background-size: cover;
+    background-repeat: no-repeat;     
+}
+.card-body{
+    align-items: center;
+}
+.card-img-top{
+    height:150px;
+    height: 200px;;
+  }
+ 
+  .sub-container{
+      display: grid;
+      align-items: center;
+      height: 100hv;
+  }
+
+/*Propiedades Clientes*/
+.bg-clientes{
+    background-image: url(/images/clientes.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Resolucione contacto*/
+@media (min-width: 1400px){
+.form-group, .container-xxl {
+    max-width: 800px;
+}
+}
+
+
+
+
